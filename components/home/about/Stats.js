@@ -24,6 +24,7 @@ export const Stats = () => {
             <span className="chip">Tailwind</span>
             <span className="chip">NodeJS</span>
             <span className="chip">GitHub</span>
+            <span className="chip">Sanity CMS</span>
             <span className="chip">Framer Motion</span>
             <span className="chip">Figma</span>
           </div>
