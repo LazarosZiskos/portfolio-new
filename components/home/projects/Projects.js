@@ -88,13 +88,13 @@ const projects = [
           section.
         </p>
         <p>
-          In order for the user to use the service they have to authenticate
+          In order for the user to use the services they have to authenticate
           through Clerk Authentication either by creating their own
           username/password or via their Gmail, Github or Linkedin account
         </p>
         <p>
-          For the UI I used Tailwind CSS and Shadcn to make it pixel perfect,
-          offering the best experience for the user.
+          In the front-end I used Tailwind CSS and Shadcn to make it pixel
+          perfect, offering the best experience for the user.
         </p>
       </>
     ),
@@ -102,8 +102,8 @@ const projects = [
   {
     title: "Ecommerce Store",
     imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    code: "https://github.com/LazarosZiskos/e-commerce-store",
+    projectLink: "https://e-commerce-store-tawny.vercel.app/",
     tech: [
       "Typescript",
       "NextJS",
@@ -113,54 +113,55 @@ const projects = [
       "Stripe",
     ],
     description:
-      "Think Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.",
+      "Ecommerce store, where the user can change the product details utilizing Sanity CMS.",
     modalContent: (
       <>
         <p>
-          Brush wire is essentially Zapier but for paint. Built with a team of
-          four college friends and scaled to {">"} 1 billion requests per day.
-          This was a fun one.
+          An ecommerce store using NextJS and its features like routing, dynamic
+          routing and protected routes. On top of that the client can add new
+          products easily and fast without using code through the power of
+          Sanity io CMS Studio.
         </p>
         <p>
-          Since &quot;Zapier for paint&quot; doesn&apos;t mean anything, be
-          creative {":)"}
+          The user can choose the product they want to purchase, change the
+          quantity accordingly. Also the checkout and payment are implemented
+          using the latest features of Stripe.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          The front-end is built using Tailwind CSS and Shadcn to achieve a
+          flawless visual outcome, maximizing the user experience that an eshop
+          should have.
         </p>
       </>
     ),
   },
   {
     title: "Hotel Website",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    imgSrc: "project-imgs/hotel1.jpg",
+    code: "https://github.com/LazarosZiskos/e-commerce-store",
+    projectLink: "https://hotel-website-brown.vercel.app/",
     tech: ["Typescript", "NextJS", "Tailwind", "Shadcn"],
     description:
-      "I couldn't think of another paint reference app, so here we are. I think you get the idea, right? Use your imagination 🌈",
+      "A hotel website built to draw attention from the potential guest, increase sales and highlight the features that the hotel has to offer",
     modalContent: (
       <>
-        <p>Alright, you got me. I&apos;m all out of paint references.</p>
         <p>
-          Point is, use this space to explain a bit further WHAT this project
-          is, as well as what YOU contributed to it.
-        </p>
-        <p>You get the idea. Now more lorem {":)"}</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
+          Using NextJS and Tailwind CSS the website is fast, efficient without
+          big loading times that can push the potential customer away.
         </p>
         <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Features like light & dark mode offer an excellent user experience
+          making the website unforgetable.
+        </p>
+        <p>
+          Moreover, utilizing the power of Framer Motion I have achieved an
+          eye-catching outcome which truly, as designers say, makes the website
+          'pop'!
+        </p>
+        <p>
+          It is developed to underline the best features of the hotel and offer
+          every detail that a potential guest should know and solve any question
+          they may have before arriving!
         </p>
       </>
     ),
